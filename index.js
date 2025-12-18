@@ -6,8 +6,6 @@ const { registerPlugin } = wp.plugins;
 const { dispatch, useSelect } = wp.data;
 const { enums, helpers, store: aiStore } = window.aiServices.ai;
 
-// Analyze the content thoroughly and write a new, unique, professional, and well-structured blog in WordPress format for a website that is about senior loneliness. Tie the article into how it pertains to senior loneliness. Just return the content of the new article ready for release. Do not include tags, categories or images.
-
 const AI_CAPABILITIES = [ enums.AiCapability.TEXT_GENERATION ];
 
 const AICurator_Block = () => {
